@@ -89,7 +89,7 @@ nav {
     justify-content: center;
 }
 .exp-icon {
-    width: 80px;
+    width: 70px;
     height: auto;
     padding: 5px;
 }
@@ -139,17 +139,15 @@ footer {
 .social {
     text-align: center;
 }
-.social ul {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-}
-.social-icon {
+.github-icon {
     width: 40px;
     padding: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     filter: brightness(70%);
     transition: 0.2s;
 }
-.social-icon:hover {
+.github-icon:hover {
     filter: brightness(100%);
 }
