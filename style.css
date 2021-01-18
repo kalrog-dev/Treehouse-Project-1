@@ -127,10 +127,12 @@ nav {
     border-radius: 20px;
     margin: 2vh 1vh 1vh 1vh;
     transition: 0.4s;
+    filter: brightness(100%);
 }
 .project-img:hover {
     border: solid green 3px;
     cursor: pointer;
+    filter: brightness(85%);
 }
 footer {
     width: 80%;
