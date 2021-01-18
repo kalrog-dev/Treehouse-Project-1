@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Michal's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1 class="nav-text">Michal's Portfolio</h1>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="index.html#projects">Projects</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="background">
+            <img class="profile-image" src="img/cat.png" alt="My cat">
+            <div class="main-text">
+                <h1 class="title-text">Michal Veselka</h1>
+                <h2 class="intro-text">Web Developer living in Prague, Czechia</h2>
+            </div>
+        </div>
+    </header>
+    <main>
+        <!-- CSS Flexbox, direction row -->
+        <div class="container">
+            <div class="box box1" id="about">
+                <h1 class="box-title">About Me</h1>
+                <p>Hi, my name is Michal.</p>
+                <p>I have started to learn HTML &amp; CSS a few days ago.</p>
+            </div>
+
+            <div class="box box2">
+                <h1 class="box-title">Experience With</h1>
+                <ul class="icon-list">
+                    <li><img class="exp-icon" src="img/html.png" alt="html icon" title="html"></li>
+                    <li><img class="exp-icon" src="img/css.png" alt="css icon" title="CSS"></li>
+                </ul>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="social">
+            <ul>
+                <li><a href="https://github.com/michal7272" target="_blank"><img class="social-icon" src="img/github.svg" alt="github icon" title="github"></a></li>
+                <li><a href="https://www.linkedin.com/" target="_blank"><img class="social-icon" src="img/linkedin.svg" alt="linkedin icon" title="linkedin"></a></li>
+                <li><a href="https://twitter.com/treehouse" target="_blank"><img class="social-icon" src="img/twitter.svg" alt="twitter icon" title="twitter"></a></li>
+            </ul>
+            <small class="copyright">&copy; 2021, Michal Veselka</small>
+        </div>
+    </footer>
+</body>
+</html>
