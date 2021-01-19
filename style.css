@@ -156,9 +156,6 @@ nav {
     margin-right: 2vh;
     margin-left: 2vh;
 }
-.box6 p {
-    float: center;
-}
 .vscode-logo { /*Image in the vscode-box2 (vscode.html)*/
     height: 200px;
     padding-top: 4vh;
