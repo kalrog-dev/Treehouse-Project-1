@@ -122,6 +122,10 @@ nav {
     color: #999;
     list-style: none;
 }
+.box a {
+    text-decoration: none;
+    color: green;
+}
 .box1 {
     flex: 3 1 0;
 }
@@ -133,28 +137,30 @@ nav {
 .box3 {
     flex: 3 1 0;
 }
-.box3 a,
-.box6 a,
-.box8 a {
-    text-decoration: none;
-    color: green;
-}
 .box4,
-.box8 {
+.box10 {
     flex: 1 1 100%;
 }
 .box5,
 .box6,
 .box7,
+.box8,
+.box9,
 .vscode-box1,
 .vscode-box2,
 .vscode-box3 {
-    flex: 1 1 0;
+    flex: 1 1 0%;
 }
 .box6,
 .vscode-box2 {
     margin-right: 2vh;
     margin-left: 2vh;
+}
+.break {    /*Additional element to force box8 & box9 to be on a new row*/
+    flex-basis: 100%;
+}
+.box8 {
+    margin-right: 2vh;
 }
 .vscode-logo { /*Image in the vscode-box2 (vscode.html)*/
     height: 200px;
