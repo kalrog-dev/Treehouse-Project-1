@@ -63,6 +63,9 @@ nav {
 .main-text {
     background-image: linear-gradient(rgb(0, 0, 0, 0.4), rgb(0, 0, 0, 0.8), rgb(0, 0, 0, 1));
     border-radius: 0px 0px 20px 20px;
+    /*How to apply gradient - solution from w3cchools.com documentation:
+        "Example: background-image: linear-gradient(red, yellow, green);"
+    https://www.w3schools.com/css/css3_gradients.asp*/
 }
 .title-text {
     font-size: 48px;
@@ -103,6 +106,12 @@ nav {
     border-radius: 20px;
     margin-top: 2vh;
     padding: 2vh;
+    min-width: 0;
+    /*How to fix that box with images doesn't shrink - solution by Michael Benjamin:
+        box { min-width = 0; }
+        img { width = 100%; height = auto; }
+    https://stackoverflow.com/questions/41774646/image-is-not-resizing-in-a-flexbox-layout
+    */
 }
 .box p,
 .box ul li {
@@ -163,13 +172,16 @@ nav {
     justify-content: space-around;
 }
 .project-img {
-    height: 200px;
-    width: 330px;
+    width: 95%; 
+    height: auto;
     border: solid white 3px;
     border-radius: 20px;
     margin: 2vh 1vh 1vh 1vh;
     transition: 0.4s;
     filter: brightness(100%);
+    /*How to darken images - solution from geeksforgeeks.org:
+        "Syntax: filter: brightness(50%);"
+    https://www.geeksforgeeks.org/how-to-darken-an-image-using-css/#:~:text=The%20brightness()%20function%20can,the%20image%20by%20that%20percentage.*/
 }
 .project-img:hover {
     border: solid green 3px;
@@ -196,8 +208,8 @@ footer {
     filter: brightness(100%);
 }
 .color-theme {
-    height: 200px;
-    width: 330px;
+    width: 60%; 
+    height: auto;
     border: solid white 3px;
     border-radius: 20px;
     margin: 2vh 1vh 1vh 1vh;
