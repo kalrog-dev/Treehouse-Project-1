@@ -64,7 +64,7 @@ nav {
     background-image: linear-gradient(rgb(0, 0, 0, 0.4), rgb(0, 0, 0, 0.8), rgb(0, 0, 0, 1));
     border-radius: 0px 0px 20px 20px;
     /*How to apply gradient - solution from w3cchools.com documentation:
-        "Example: background-image: linear-gradient(red, yellow, green);"
+        background-image: linear-gradient(red, yellow, green);
     https://www.w3schools.com/css/css3_gradients.asp*/
 }
 .title-text {
@@ -188,7 +188,7 @@ nav {
     transition: 0.4s;
     filter: brightness(100%);
     /*How to darken images - solution from geeksforgeeks.org:
-        "Syntax: filter: brightness(50%);"
+        filter: brightness(50%);
     https://www.geeksforgeeks.org/how-to-darken-an-image-using-css/#:~:text=The%20brightness()%20function%20can,the%20image%20by%20that%20percentage.*/
 }
 .project-img:hover {
