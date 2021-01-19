@@ -78,6 +78,9 @@ nav {
     margin-top: 1%;
     padding-bottom: 3%;
 }
+
+/*-----------------------------------*/
+/*The Main Content (within a flexbox)*/
 .container {
     width: 80%;
     margin: auto;
@@ -107,7 +110,7 @@ nav {
     margin-top: 2vh;
     padding: 2vh;
     min-width: 0;
-    /*How to fix that box with images doesn't shrink - solution by Michael Benjamin:
+    /*How to fix that a box with images doesn't shrink & images don't resize - solution by Michael Benjamin:
         box { min-width = 0; }
         img { width = 100%; height = auto; }
     https://stackoverflow.com/questions/41774646/image-is-not-resizing-in-a-flexbox-layout
@@ -131,6 +134,7 @@ nav {
     flex: 3 1 0;
 }
 .box3 a,
+.box6 a,
 .box8 a {
     text-decoration: none;
     color: green;
@@ -152,12 +156,19 @@ nav {
     margin-right: 2vh;
     margin-left: 2vh;
 }
-.vscode-logo {
+.box6 p {
+    float: center;
+}
+.vscode-logo { /*Image in the vscode-box2 (vscode.html)*/
     height: 200px;
     padding-top: 4vh;
 }
-.box6 p {
-    float: center;
+.color-theme { /*Image in the vscode-box3 (vscode.html)*/
+    width: 60%; 
+    height: auto;
+    border: solid white 3px;
+    border-radius: 20px;
+    margin: 2vh 1vh 1vh 1vh;
 }
 .about-box1 {
     flex: 4 1 0;
@@ -166,12 +177,12 @@ nav {
 .about-box2 {
     flex: 3 1 0;
 }
-.project-links {
+.project-links { 
     list-style: none;
     display: flex;
     justify-content: space-around;
 }
-.project-img {
+.project-img { /*4 images in the box4 (index.html)*/
     width: 95%; 
     height: auto;
     border: solid white 3px;
@@ -188,6 +199,9 @@ nav {
     cursor: pointer;
     filter: brightness(85%);
 }
+/*End of the Main Content (within a flexbox)*/
+/*------------------------------------------*/
+
 footer {
     width: 80%;
     margin: 1vh auto;
@@ -206,11 +220,4 @@ footer {
 }
 .github-icon:hover {
     filter: brightness(100%);
-}
-.color-theme {
-    width: 60%; 
-    height: auto;
-    border: solid white 3px;
-    border-radius: 20px;
-    margin: 2vh 1vh 1vh 1vh;
 }
