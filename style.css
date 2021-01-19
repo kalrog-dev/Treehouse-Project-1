@@ -132,12 +132,20 @@ nav {
 }
 .box5,
 .box6,
-.box7 {
+.box7,
+.vscode-box1,
+.vscode-box2,
+.vscode-box3 {
     flex: 1 1 0;
 }
-.box6 {
+.box6,
+.vscode-box2 {
     margin-right: 2vh;
     margin-left: 2vh;
+}
+.vscode-logo {
+    height: 200px;
+    padding-top: 4vh;
 }
 .box6 p {
     float: center;
@@ -186,4 +194,11 @@ footer {
 }
 .github-icon:hover {
     filter: brightness(100%);
+}
+.color-theme {
+    height: 200px;
+    width: 330px;
+    border: solid white 3px;
+    border-radius: 20px;
+    margin: 2vh 1vh 1vh 1vh;
 }
