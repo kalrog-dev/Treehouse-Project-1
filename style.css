@@ -19,9 +19,11 @@ nav {
 }
 .nav-text {
     font-family: 'Comfortaa', cursive;
+    font-size: 23px;
+    font-weight: 600;
     flex: 1;
-    margin-left: 2%;
     align-self: center;
+    margin-left: 2%;
 }
 .nav-links {
     flex: 3;
@@ -50,7 +52,7 @@ nav {
 }
 .profile-image {
     width: 200px;
-    border: solid #fff 4px;
+    border: solid #fff 3px;
     border-radius: 50%;
     transition: 0.4s;
     margin: 5% 0% 2% 0%;
@@ -69,6 +71,7 @@ nav {
 }
 .intro-text {
     font-size: 26px;
+    color: #999;
     margin-top: 1%;
     padding-bottom: 3%;
 }
@@ -101,19 +104,50 @@ nav {
     margin-top: 2vh;
     padding: 2vh;
 }
-.box p {
+.box p,
+.box ul li {
     font-size: 20px;
+    color: #999;
+    list-style: none;
 }
 .box1 {
     flex: 3 1 0;
-    margin-right: 2vh;
 }
 .box2 {
-    flex: 2 1 0;
+    flex: 4 1 0;
+    margin-right: 2vh;
+    margin-left: 2vh;
 }
-.box3,
-.box4 {
+.box3 {
+    flex: 3 1 0;
+}
+.box3 a,
+.box8 a {
+    text-decoration: none;
+    color: green;
+}
+.box4,
+.box8 {
     flex: 1 1 100%;
+}
+.box5,
+.box6,
+.box7 {
+    flex: 1 1 0;
+}
+.box6 {
+    margin-right: 2vh;
+    margin-left: 2vh;
+}
+.box6 p {
+    float: center;
+}
+.about-box1 {
+    flex: 4 1 0;
+    margin-right: 2vh;
+}
+.about-box2 {
+    flex: 3 1 0;
 }
 .project-links {
     list-style: none;
@@ -122,7 +156,7 @@ nav {
 }
 .project-img {
     height: 200px;
-    width: 290px;
+    width: 330px;
     border: solid white 3px;
     border-radius: 20px;
     margin: 2vh 1vh 1vh 1vh;

@@ -11,7 +11,7 @@
 <body>
     <header>
         <nav>
-            <h1 class="nav-text">Michal's Portfolio</h1>
+            <p class="nav-text">Michal's Portfolio</p>
             <ul class="nav-links">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About Me</a></li>
@@ -31,20 +31,28 @@
         <!-- CSS Flexbox, direction row -->
         <div class="container">
             <div class="box box1">
+                <h1 class="box-title">My Goals</h1>
+                <p>My goal is to become a web developer.</p>
+                <p>I'd like to learn HTML, CSS and Javascript.</p>
+            </div>
+
+            <div class="box box2">
                 <h1 class="box-title">Hi there!</h1>
                 <p>Thank you for visiting my website.</p>
                 <p>This page will link to the projects I create in the future.</p>
                 <p></p>
             </div>
 
-            <div class="box box2">
-                <h1 class="box-title">My Goals</h1>
-                <p>My goal is to become a web developer.</p>
-                <p>First I'd like to learn HTML, CSS and Javascript.</p>
+            <div class="box box3">
+                <h1 class="box-title">My Hobbies</h1>
+                <ul>
+                    <li>Logical card game called Bridge (<a href="https://en.wikipedia.org/wiki/Contract_bridge" target="_blank">wiki</a>)</li>
+                    <li>Game development using GML (<a href="https://en.wikipedia.org/wiki/GameMaker#GameMaker_Language" target="_blank">wiki</a>)</li>
+                </ul>
             </div>
 
-            <div class="box box3" id="projects">
-                <h1 class="box-title">Projects</h1>
+            <div class="box box4" id="projects">
+                <h1 class="box-title">Techdegree Projects</h1>
                 <p>(The images should be later replaced with previews of the websites)</p>
                 <ul class="project-links">
                     <li>
@@ -74,9 +82,36 @@
                 </ul>
             </div>
 
-            <div class="box box4" id="contact">
+            <div class="box box5">
+                <h1 class="box-title">Preview 1</h1>
+                <figure>
+                    <a href="#projects"><img class="project-img" src="img/art-website1.jpg" alt="website project"></a>
+                    <figcaption>
+                        
+                    </figcaption>
+                </figure>
+            </div>
+
+            <div class="box box6">
+                <h1 class="box-title">Other Projects</h1>
+                <p>My first big task is to create an art portfolio for my girlfriend.</p><br>
+                <p>There are some fancy fonts of her choice &amp; the background is a video.</p><br>
+                <p>I used there CSS Flexbox for the first time. It took me some time to wrap the boxes how I wanted to.</p>
+            </div>
+
+            <div class="box box7">
+                <h1 class="box-title">Preview 2</h1>
+                <figure>
+                    <a href="#projects"><img class="project-img" src="img/art-website2.jpg" alt="website project"></a>
+                    <figcaption>
+                        
+                    </figcaption>
+                </figure>
+            </div>
+
+            <div class="box box8" id="contact">
                 <h1 class="box-title">Contact</h1>
-                <p><strong>Email:</strong> test@gmail.com</p>
+                <p><strong>Email:</strong> <a href="mailto:test@gmail.com?subject=Hi%20there!">test@gmail.com</a></p>
             </div>
         </div>
     </main>
