@@ -126,6 +126,9 @@ nav {
     text-decoration: none;
     color: green;
 }
+.box a:hover {
+    color: teal;
+}
 .box1 {
     flex: 3 1 0;
 }
